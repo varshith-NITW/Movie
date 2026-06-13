@@ -1,0 +1,40 @@
+
+.Movie_card{
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.262);
+    position: relative;
+}
+.Movie_card:hover{
+    transform: scale(1.08);
+    transition: all 0.5s ease-in-out;
+}
+
+.Movie_poster{
+    width: 100%;
+    height: 100%;
+    border:3px solid black ;
+}
+.Movie_details {
+  position: absolute;
+  top: 0;
+  left: 0;         
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;     
+  justify-content: flex-end;  
+  opacity: 0;
+  color:orange;
+}
+.Movie_details:hover{
+opacity: 1;
+transition: 2000;
+transition: all 1.5s ease-in-out;
+}
+

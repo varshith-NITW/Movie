@@ -1,0 +1,29 @@
+
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 2px solid;
+
+}
+.Movieite{
+    color: rgb(239, 23, 23);
+    font-size: 40px;
+}
+
+.Navbar_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Navbar_links>a{
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     padding: 0 15px;
+     color: rgb(6, 255, 151);
+}

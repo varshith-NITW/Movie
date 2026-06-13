@@ -1,0 +1,51 @@
+.Movie_list_header{
+    color: aquamarine;
+    background-color:rgb(39, 38, 38) ;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+   
+}
+.Movie_list_heading{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+
+.Movie_list_filter{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+}
+
+.Movie_list_filter_star{
+    padding: 5px 10px; 
+    cursor: pointer;
+}
+
+.Movie_sort{
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: inherit;
+   padding: 0 5px;
+   margin:0 10px;
+}
+.Movie_list_fil_sort{
+    display: flex;
+}
+.Movie_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.active{
+    color:blueviolet;
+}

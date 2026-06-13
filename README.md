@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+🎬 Movie Hub
+A sleek, responsive web application for discovering movies, exploring trending titles, viewing detailed multimedia information, and managing your personal watchlist.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo: View Deployment
 
-## Available Scripts
+🚀 Features
+Real-time Movie Discovery: Browse through trending, popular, top-rated, and now-playing movies.
 
-In the project directory, you can run:
+Advanced Search & Filtering: Quickly search for your favorite titles or filter them by genre, release year, and ratings.
 
-### `npm start`
+Detailed Information Pages: Dynamic routing to explore comprehensive details for each movie, including:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Detailed plot synopses and taglines.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Cast and crew directories.
 
-### `npm test`
+User ratings, runtimes, and box office details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Fully Responsive Design: Seamlessly optimized for desktop, tablet, and mobile viewing environments.
 
-### `npm run build`
+User Watchlist (Optional/If implemented): Add your favorite movies to a personalized local storage or database-backed watchlist.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Tech Stack
+Frontend Framework: React.js / Next.js (Update based on your project)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Styling: Tailwind CSS / Styled Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+State Management / Data Fetching: React Context API / Redux Toolkit / TanStack Query (React Query)
 
-### `npm run eject`
+API Source: The Movie Database (TMDB) API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Deployment: Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📦 Project Structure
+Here is a quick overview of how the codebase is organized:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Plaintext
+├── public/              # Static assets (images, icons, logos)
+├── src/
+│   ├── components/      # Reusable UI elements (Navbar, MovieCard, Footer, Spinner)
+│   ├── pages/ or app/   # Route/page views (Home, MovieDetails, Watchlist)
+│   ├── hooks/           # Custom React hooks (e.g., useFetch)
+│   ├── services/        # API configuration and fetch requests (TMDB wrapper)
+│   ├── context/         # Global state management config
+│   ├── styles/          # Global styles and Tailwind configurations
+│   └── App.js / layout.js
+├── package.json         # Project dependencies and scripts
+└── README.md

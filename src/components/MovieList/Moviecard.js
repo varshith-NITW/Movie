@@ -4,7 +4,7 @@ import "./Moviecard.css";
 function Moviecard({movie}){
     return(
      <>
-     <a href={`https://www.themoviedb.org/movie/${movie.id}`} target="_blank" className="Movie_card">
+     <a href={`https://www.themoviedb.org/movie/${movie.id}`} target="_blank" className="Movie_card" rel="noreferrer">
         <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
          alt="Movie poster" 
          className="Movie_poster"/>

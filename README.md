@@ -34,15 +34,6 @@ Deployment: Vercel
 📦 Project Structure
 Here is a quick overview of how the codebase is organized:
 
-Plaintext
-├── public/              # Static assets (images, icons, logos)
-├── src/
-│   ├── components/      # Reusable UI elements (Navbar, MovieCard, Footer, Spinner)
-│   ├── pages/ or app/   # Route/page views (Home, MovieDetails, Watchlist)
-│   ├── hooks/           # Custom React hooks (e.g., useFetch)
-│   ├── services/        # API configuration and fetch requests (TMDB wrapper)
-│   ├── context/         # Global state management config
-│   ├── styles/          # Global styles and Tailwind configurations
-│   └── App.js / layout.js
-├── package.json         # Project dependencies and scripts
+<img width="891" height="301" alt="image" src="https://github.com/user-attachments/assets/5239a738-e2da-4a27-8db7-1633ed48c552" />
+
 └── README.md
